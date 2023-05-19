@@ -4,11 +4,98 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c025f52-c0d3-4aaa-8b9d-5e8de02ba655" name="Changes" comment="" />
+    <list default="true" id="1c025f52-c0d3-4aaa-8b9d-5e8de02ba655" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/module/Application/Model/DataModel/IBaseComponentProps.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Application/Model/DataModel/IProps.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/DesignSystem/Component/Checkbox/Checkbox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Icon/Component/IconArrowRight.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Icon/Component/IconContainer/IconContainer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Icon/Component/IconContainer/IconContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Icon/Component/IconFilter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Icon/Component/IconStar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Icon/Model/IIconProps.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Icon/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Movie/Component/MovieHeader/MovieHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Movie/Component/MovieList/MovieList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Movie/Component/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Movie/Constant/MOVIE_API.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Movie/Model/DataModel/IData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Movie/Model/DataModel/IItem.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Movie/Model/DataModel/IMovieListQueryData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Movie/Model/DataModel/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Movie/Model/Enum/SortModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Movie/Service/MovieService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Movie/Service/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Css/base/_fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Css/main.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/eot/IRANSansWeb(FaNum).eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/eot/IRANSansWeb(FaNum)_Black.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/eot/IRANSansWeb(FaNum)_Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/eot/IRANSansWeb(FaNum)_Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/eot/IRANSansWeb(FaNum)_Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/eot/IRANSansWeb(FaNum)_UltraLight.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/eot/IRANSansWeb.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/eot/IRANSansWeb_Black.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/eot/IRANSansWeb_Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/eot/IRANSansWeb_Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/eot/IRANSansWeb_Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/eot/IRANSansWeb_UltraLight.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/ttf/IRANSansWeb(FaNum).ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/ttf/IRANSansWeb(FaNum)_Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/ttf/IRANSansWeb(FaNum)_Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/ttf/IRANSansWeb(FaNum)_Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/ttf/IRANSansWeb(FaNum)_Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/ttf/IRANSansWeb(FaNum)_UltraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/ttf/IRANSansWeb.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/ttf/IRANSansWeb_Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/ttf/IRANSansWeb_Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/ttf/IRANSansWeb_Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/ttf/IRANSansWeb_Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/ttf/IRANSansWeb_UltraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff/IRANSansWeb(FaNum).woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff/IRANSansWeb(FaNum)_Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff/IRANSansWeb(FaNum)_Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff/IRANSansWeb(FaNum)_Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff/IRANSansWeb(FaNum)_Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff/IRANSansWeb(FaNum)_UltraLight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff/IRANSansWeb.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff/IRANSansWeb_Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff/IRANSansWeb_Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff/IRANSansWeb_Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff/IRANSansWeb_Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff/IRANSansWeb_UltraLight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff2/IRANSansWeb(FaNum).woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff2/IRANSansWeb(FaNum)_Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff2/IRANSansWeb(FaNum)_Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff2/IRANSansWeb(FaNum)_Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff2/IRANSansWeb(FaNum)_Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff2/IRANSansWeb(FaNum)_UltraLight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff2/IRANSansWeb.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff2/IRANSansWeb_Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff2/IRANSansWeb_Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff2/IRANSansWeb_Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff2/IRANSansWeb_Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Font/iransans/woff2/IRANSansWeb_UltraLight.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -24,15 +111,22 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/mohsen/Projects/boilerplate",
+    "last_opened_file_path": "/Users/mohsen/Projects/boilerplate/module/Icon/Component",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "/Users/mohsen/Projects/boilerplate/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module/Icon/Component" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
